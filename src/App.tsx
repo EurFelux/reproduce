@@ -6,7 +6,7 @@ import logo from "./logo.svg";
 import reactLogo from "./react.svg";
 
 export function App() {
-  const [test, setTest] = useState('test')
+  const [test] = useState('test')
 
   useEffect(() => {
     console.log(test)
